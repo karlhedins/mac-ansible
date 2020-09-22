@@ -21,11 +21,12 @@ homebrew_packages:
   - zlib
 
 homebrew_cask_packages:
-  - google-chrome
   - firefox-developer-edition
+  - google-chrome
   - iterm2
   - karabiner-elements
   - slate
+  - sublime-text
   - visual-studio-code
 
 pyenv_python_versions:
