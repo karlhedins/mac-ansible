@@ -10,6 +10,7 @@ homebrew_packages:
   - git
   - jq
   - kubectl
+  - kubectx
   - openssl
   - pipenv
   - readline
