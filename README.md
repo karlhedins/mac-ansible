@@ -20,6 +20,10 @@ Getting Started
 5. `pip install ansible` (always the best way to install Ansible)
 6. Then `./playbook.yml`
 
+Things currently installed manually
+---------------
+- [Fira Code font](https://github.com/tonsky/FiraCode)
+
 Fork! Copy! Adapt!
 ------------------
 
