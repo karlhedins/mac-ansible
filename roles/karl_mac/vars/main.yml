@@ -4,22 +4,27 @@ homebrew_taps:
 homebrew_package_removals: []
 
 homebrew_packages:
+  - awscli
   - coreutils
   - git
   - jq
+  - kubectl
   - openssl
+  - pipenv
   - readline
   - speedtest
   - sqlite3
   - tree
   - xz
+  - yarn
   - zlib
 
 homebrew_cask_packages:
   - google-chrome
   - iterm2
-  - slate
   - karabiner-elements
+  - slate
+  - visual-studio-code
 
 pyenv_python_versions:
   # In precedence order
