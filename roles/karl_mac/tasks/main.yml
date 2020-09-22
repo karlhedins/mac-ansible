@@ -11,6 +11,8 @@
 
 - name: Copy in/clone app settings
   import_tasks: app_settings.yml
+  tags:
+    - appsettings
 # - name: Cron settings
 #   import_tasks: cron.yml
 #   tags:
