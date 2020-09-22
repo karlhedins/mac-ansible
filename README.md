@@ -20,6 +20,12 @@ Getting Started
 5. `pip install ansible` (always the best way to install Ansible)
 6. Then `./playbook.yml`
 
+Most tasks are tagged. To run tasks with a specific tag, for instance brew, run:
+
+```bash
+ansible-playbook playbook.yml --tags "brew"
+```
+
 Things currently installed manually
 ---------------
 - [Fira Code font](https://github.com/tonsky/FiraCode)
