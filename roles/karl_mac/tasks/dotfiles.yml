@@ -16,6 +16,7 @@
   loop:
     - config/karabiner
     - ansible.cfg
+    - slate
     - ipython/profile_default/startup/00-imports.py
 # - name: zsh - git repo for prezto fork
 #   git:

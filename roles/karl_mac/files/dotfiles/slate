@@ -1,0 +1,67 @@
+config defaultToCurrentScreen true
+config nudgePercentOf screenSize
+config resizePercentOf screenSize
+
+#config windowHintsShowIcons true
+#config windowHintsIgnoreHiddenWindows false
+#config windowHintsSpread true
+
+# Misc Aliases
+alias showNormalHint hint AOEUIDHTNSYXFBPKGMCW
+alias pushbtns ctrl;alt;cmd
+
+# Push Bindings
+bind right:${pushbtns}  push right bar-resize:screenSizeX/2
+bind left:${pushbtns}   push left  bar-resize:screenSizeX/2
+bind up:${pushbtns}     push up    bar-resize:screenSizeY/2
+bind down:${pushbtns}   push down  bar-resize:screenSizeY/2
+
+# Resize Bindings
+bind right:ctrl;alt resize +10% +0
+bind left:ctrl;alt  resize -10% +0
+bind up:ctrl;alt    resize +0   -10%
+bind down:ctrl;alt  resize +0   +10%
+
+# Throw Bindings
+bind .:${pushbtns}         throw 2 resize
+
+# Window Hints
+#bind e:cmd  ${showNormalHint}
+
+# ======================================
+# The HYPER key
+# ======================================
+
+alias hyper ctrl;shift;alt;cmd
+
+# Focus Bindings
+#bind right:${hyper}    focus right
+#bind left:${hyper}     focus left
+#bind up:${hyper}       focus up
+#bind down:${hyper}     focus down
+
+# Move bindings
+bind up:${hyper} throw 0 resize
+bind down:${hyper} throw 1 resize
+
+# App bindings
+bind a:${hyper} focus 'Audacity'
+bind c:${hyper} focus 'Google Chrome'
+bind d:${hyper} focus 'Navicat Premium'
+bind e:${hyper} focus 'Firefox Developer Edition'
+# bind e:${hyper} focus 'Firefox'
+bind f:${hyper} focus 'Finder'
+bind g:${hyper} focus 'Figma'
+bind i:${hyper} focus 'iTerm2'
+bind l:${hyper} focus 'Slack'
+bind m:${hyper} focus 'Mail'
+bind n:${hyper} focus 'Numbers'
+bind o:${hyper} focus 'Postman'
+bind p:${hyper} focus 'Preview'
+bind r:${hyper} focus 'Sourcetree'
+bind s:${hyper} focus 'Sublime Text'
+bind t:${hyper} focus 'Telegram'
+# bind v:${hyper} focus 'Safari'
+bind v:${hyper} focus 'VLC'
+# bind w:${hyper} focus 'Code - Insiders'
+bind w:${hyper} focus 'Code'
