@@ -1,152 +1,28 @@
-homebrew_taps: []
+homebrew_taps:
+  - teamookla/speedtest
 
 homebrew_package_removals: []
 
 homebrew_packages:
-- autoconf
-- autojump
-- automake
-- bazaar
-- cloc
-- coreutils
-- cowsay
-- enchant
-- exiftool
-- fd
-- fdupes
-- ffmpeg
-- freetype
-- fswatch
-- gdal
-- gdbm
-- git
-- github/gh/gh
-- goaccess
-- gpg
-- graphicsmagick
-- hub
-- imagemagick
-- inetutils
-- jhead
-- jpeg
-- jpegoptim
-- jq
-- lesspipe
-- libevent
-- libmemcached
-- libpng
-- libtool
-- libyaml
-- memcached
-- myrepos
-- ncdu
-- nvm
-- openssl
-- ossp-uuid
-- pandoc
-- parallel
-- percona-toolkit
-- pkg-config
-- pngcrush
-- postgresql
-- pwgen
-- pyenv
-- pypy
-- python
-- qpdf
-- readline
-- rsync
-- rtmpdump
-- ruby
-- ruby-build
-- ruby-install
-- sd
-- shellcheck
-- sqlite
-- swig
-- tor
-- tree
-- watch
-- wget
-- xz
-- yubikey-personalization
-- zlib
-- zsh-completions
+  - coreutils
+  - git
+  - jq
+  - openssl
+  - readline
+  - speedtest
+  - sqlite3
+  - tree
+  - xz
+  - zlib
 
 homebrew_cask_packages:
-- '0xed'
-- alfred
-- anki
-- calibre
-- discord
-- disk-inventory-x
-- docker
-- evernote
-- firefox
-- font-roboto-mono
-- font-ubuntumono-nerd-font
-- franz
-- google-chrome
-- iterm2
-- java
-- karabiner-elements
-- keyboard-maestro
-- mactex
-- mountain-duck
-- mplayerx
-- paintbrush
-- rectangle
-- rescuetime
-- sequel-pro
-- silverlight
-- skim
-- skype
-- soundflower
-- steam
-- sublime-text
-- texmaker
-- unshaky
-- vagrant
-- virtualbox
-- vlc
-- xquartz
+  - google-chrome
+  - iterm2
+  - karabiner-elements
 
 pyenv_python_versions:
-# In precedence order
-- 3.8.5
-- 3.7.8
-- 3.6.11
-- 3.5.9
-- 3.4.10
-- 2.7.18
-- 3.9-dev
-- pypy3.6-7.1.1
-- pypy2.7-7.1.1
+  # In precedence order
+  - 3.8.5
 
 pip_packages:
-- awscli
-- boto
-- boto3
-- csvkit
-- ec2-ssh
-- flake8
-- httpie
-- ipdb
-- ipython
-- lifelogger
-- pipenv
-- pygments
-- pythonpy
-- python-language-server
-- pyyaml
-- requests
-- s3cmd
-- six
-- tox
-- twine
-- youtube-dl
-- wheel
-
-gem_packages:
-- jekyll
-- jekyll-tagging
+  - ipython
