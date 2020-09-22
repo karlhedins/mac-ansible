@@ -4,6 +4,7 @@ homebrew_taps:
 homebrew_package_removals: []
 
 homebrew_packages:
+  - aws-iam-authenticator
   - awscli
   - coreutils
   - git
@@ -21,6 +22,7 @@ homebrew_packages:
 
 homebrew_cask_packages:
   - google-chrome
+  - firefox-developer-edition
   - iterm2
   - karabiner-elements
   - slate
