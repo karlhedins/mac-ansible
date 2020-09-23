@@ -22,10 +22,12 @@ homebrew_packages:
   - zlib
 
 homebrew_cask_packages:
+  - alfred
   - firefox-developer-edition
   - google-chrome
   - iterm2
   - karabiner-elements
+  - slack
   - slate
   - sublime-text
   - visual-studio-code
