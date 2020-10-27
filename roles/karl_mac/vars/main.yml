@@ -1,36 +1,52 @@
 homebrew_taps:
   - teamookla/speedtest
+  - AdoptOpenJDK/openjdk
 
 homebrew_package_removals: []
 
 homebrew_packages:
   - aws-iam-authenticator
   - awscli
+  - bmon
   - coreutils
+  - ctop
+  - flydiverny/tap/yarn-run
   - git
+  - htop
+  - jenv
   - jq
   - kubectl
   - kubectx
+  - libpq
   - openssl
   - pipenv
   - readline
   - speedtest
   - sqlite3
   - tree
+  - watch
   - xz
   - yarn
   - zlib
 
 homebrew_cask_packages:
+  - adoptopenjdk11
+  - adoptopenjdk8
   - alfred
   - firefox-developer-edition
   - google-chrome
   - iterm2
   - karabiner-elements
+  - lens
+  - postman
   - slack
   - slate
+  - sourcetree
   - sublime-text
+  - telegram
   - visual-studio-code
+  - vlc
+  - vox
 
 pyenv_python_versions:
   # In precedence order
